@@ -18,13 +18,13 @@ export default function App() {
             .then(data => setdata(data.message))
             .catch(err => console.log("Error: ", err));
     }, []);
-    console.log(data)
 
     return (
         <>
             <Router>
                 <Header />
                 <Routes>
+                    <Route path="/" element={<Section_1 />} />
                     <Route path="/home" element={<Section_1 />} />
                     <Route path="/app" element={<Section_2 />} />
                     <Route path="/about" element={<Section_3 />} />
