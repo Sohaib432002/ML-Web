@@ -53,10 +53,10 @@ const header = () => {
                         pointerEvents: clicked ? 'auto' : 'none'
                     }}>
                     <ul>
-                        <li className='nav_option'><a href="home">Home</a></li>
-                        <li className='nav_option'><a href="app">Predict</a></li>
-                        <li className='nav_option'><a href="about">About</a></li>
-                        <li className='nav_option'><a href="about">Contact</a></li>
+                        <li className='nav_option'><Link to="/home">Home</Link></li>
+                        <li className='nav_option'><Link to="/app">Predict</Link></li>
+                        <li className='nav_option'><Link to="about">About</Link></li>
+                        <li className='nav_option'><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </div>
