@@ -8,15 +8,15 @@ const header = () => {
         
         <div className='header' >
             <div className="img_logo">
-                <img src="/images/logo_img.png" alt="error" />
+                <img src="/images/logo_img.png" style={{width:70}} alt="error" />
             </div>
             <div className="nav">
                 <div className="navlist">
                     <ul>
                         <li className='nav_option'><a href="home">Home</a></li>
                         <li className='nav_option'><a href="app">Predict</a></li>
-                        <li className='nav_option'><a href="about">About</a></li>
-                        <li className='nav_option'><a href="contact">Contact</a></li>
+                        <li className='nav_option'><a href="about">About Apps</a></li>
+                        <li className='nav_option'><a href="contact">About Us</a></li>
                     </ul>
                 </div>
             </div>
