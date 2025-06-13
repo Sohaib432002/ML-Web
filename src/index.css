@@ -19,6 +19,7 @@
 .whatsapp:hover{
   transform: scale(1.3);
   cursor: pointer;
+  
 }
 .whatsapp img{
   width: 100px;
