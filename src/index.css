@@ -1061,8 +1061,8 @@ hr {
   }
 
   .sec_0_img img {
-    width: 208px;
-    height: 239px;
+    width: 250px;
+    height: 250px;
   }
 
   .btm_text {
@@ -1071,11 +1071,17 @@ hr {
 
   .logos_container {
     flex-wrap: wrap;
-    padding: 48px;
+  }
+
+  .sec_0_img img {
+      width: 283px;
+    height: 285px;
+
   }
 
   .img_logo {
     font-size: 40px;
+    width: 50px;
   }
 
   .img_logo img {
@@ -1198,12 +1204,26 @@ hr {
     height: 48vh;
     width: 357px;
   }
+
+  .btm img {
+    height: 12vh;
+  }
+
+  .section_0 {
+    height: 689px;
+  }
+  .view{
+    height: 689px !important;
+  }
 }
 
 @media (max-width:350px) {
   .workflow_imgs img {
     height: 50vh !important;
     width: 250px !important;
+  }
+  .section_0{
+    height: 663px;
   }
 
   .app2_tect img {
