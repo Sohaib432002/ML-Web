@@ -1022,7 +1022,12 @@ hr {
     height: 210px;
     width: 294px;
   }
-
+  .navlist-mobile ul{
+        padding: 12px;
+  }
+  .navlist-mobile li a{
+    font-size: 17px;
+  }
   .header {
     padding: 11px 20px;
   }
