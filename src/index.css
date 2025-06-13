@@ -8,23 +8,63 @@
   align-items: center;
   position: relative;
 }
-.whatsapp{
+
+.whatsapp {
   position: fixed;
-    left: 47px;
-    width: 78px;
-    top: 715px;
-    z-index: 3;
-    transition: all 0.2s ease-in-out;
-}
-.whatsapp:hover{
-  transform: scale(1.3);
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
   cursor: pointer;
-  
-}
-.whatsapp img{
-  width: 100px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
 
+.whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .whatsapp {
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .whatsapp img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp {
+    bottom: 10px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .whatsapp img {
+    width: 25px;
+    height: 25px;
+  }
+}
 .img_logo {
   width: 100;
   height: 74;
@@ -1044,13 +1084,6 @@ hr {
   .navlist-mobile li a{
     font-size: 17px;
   }
-  .whatsapp{
-    position: fixed;
-    left: 223px;
-    width: 78px;
-    top: 580px;
-    z-index: 3;
-  }
   .header {
     padding: 11px 20px;
   }
@@ -1253,13 +1286,7 @@ hr {
   .section_0{
     height: 663px;
   }
-  .whatsapp{
-    position: fixed;
-    left: 175px;
-    width: 78px;
-    top: 580px;
-    z-index: 3;
-  }
+  
   .app2_tect img {
     height: 37vh;
     width: 307px;
