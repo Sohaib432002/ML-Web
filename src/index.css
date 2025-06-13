@@ -1046,9 +1046,9 @@ hr {
   }
   .whatsapp{
     position: fixed;
-    left: 323px;
+    left: 223px;
     width: 78px;
-    top: 680px;
+    top: 580px;
     z-index: 3;
   }
   .header {
@@ -1257,7 +1257,7 @@ hr {
     position: fixed;
     left: 175px;
     width: 78px;
-    top: 680px;
+    top: 580px;
     z-index: 3;
   }
   .app2_tect img {
