@@ -8,6 +8,21 @@
   align-items: center;
   position: relative;
 }
+.whatsapp{
+  position: fixed;
+    left: 47px;
+    width: 78px;
+    top: 715px;
+    z-index: 3;
+    transition: all 0.2s ease-in-out;
+}
+.whatsapp:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.whatsapp img{
+  width: 100px;
+}
 
 .img_logo {
   width: 100;
@@ -1028,6 +1043,13 @@ hr {
   .navlist-mobile li a{
     font-size: 17px;
   }
+  .whatsapp{
+    position: fixed;
+    left: 323px;
+    width: 78px;
+    top: 680px;
+    z-index: 3;
+  }
   .header {
     padding: 11px 20px;
   }
@@ -1230,7 +1252,13 @@ hr {
   .section_0{
     height: 663px;
   }
-
+  .whatsapp{
+    position: fixed;
+    left: 175px;
+    width: 78px;
+    top: 680px;
+    z-index: 3;
+  }
   .app2_tect img {
     height: 37vh;
     width: 307px;

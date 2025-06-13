@@ -6,6 +6,7 @@ import Section_3 from './section_3'
 import App1 from './app1'
 import App2 from './app2'
 import Footer from "./footer"
+import Contact from './contact_us'
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { App_details } from './App_details';
@@ -25,6 +26,7 @@ export default function App() {
         <>
             <Router>
                 <Header />
+                <Contact/>
                 <Routes>
                     <Route path="/" element={<Section_1 />} />
                     <Route path="/home" element={<Section_1/>} />
