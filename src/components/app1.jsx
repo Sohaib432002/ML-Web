@@ -23,7 +23,7 @@ const App1 = () => {
         formData.append('image', image);
 
         try {
-            const response = await fetch('http://127.0.0.1:8000/api/upload/', {
+            const response = await fetch('https://sohaib432002-ml-apps-tsigns.hf.space/api/upload/', {
                 method: 'POST',
                 body: formData,
             });
@@ -43,7 +43,7 @@ const App1 = () => {
     const loading = () => {
         setLoading(true);
     };
-    useEffect(() => { fetch("http://127.0.0.1:8000/api/upload/")
+    useEffect(() => { fetch("https://sohaib432002-ml-apps-tsigns.hf.space/api/upload/")
     .then(res => res.json())
     .then(data => setResult(data));}, []);
     console.log('its a object',Result);
