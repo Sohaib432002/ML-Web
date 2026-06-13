@@ -12,7 +12,7 @@ const App2 = () => {
             const formData = new FormData();
             formData.append('document', document);
 
-            const response = await fetch('http://127.0.0.1:8000/api/upload_document/', {
+            const response = await fetch('https://sohaib432002-ml-apps-tsigns.hf.space/api/upload_document/', {
                 method: 'POST',
                 body: formData,
             });
