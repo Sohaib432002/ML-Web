@@ -15,7 +15,7 @@ export default function App() {
     const [data, setdata] = useState('')
     const [SelectApp, setSelectApp] = useState('')
     useEffect(() => {
-        fetch("http://127.0.0.1:8000/api/")
+        fetch("https://sohaib432002-ml-apps-tsigns.hf.space/api/")
             .then(res => res.json())
             .then(data => setdata(data.message))
             .catch(err => console.log("Error: ", err));
